@@ -8,4 +8,5 @@ if you only can see a blank screen on windows run this command in a privileged p
 CheckNetIsolation.exe LoopbackExempt -a -n="Microsoft.Win32WebViewHost_cw5n1h2txyewy"
 ```
 
-
+![Screenshot](resources/screenshots/1.png)
+![Screenshot](resources/screenshots/2.png)
