@@ -4,6 +4,7 @@
 # Neutralinojs binaries and builds
 
 # Neutralinojs client (minified)
+.idea
 
 # Neutralinojs related files
 .storage
