@@ -1,0 +1,1 @@
+﻿$GitDir = (Get-Item (scoop which git) -ErrorAction:Stop).Directory.Parent; if ($GitDir.FullName -imatch 'mingw') { $GitDir = $GitDir.Parent }; & (Join-Path (Join-Path $GitDir.FullName 'bin') 'bash.exe') "$(Join-Path $PSScriptRoot 'neofetch')" @args
